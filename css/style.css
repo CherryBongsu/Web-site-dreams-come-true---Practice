@@ -70,10 +70,8 @@ header {
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
-.menu-nav :hover{
-    color : #8102ff;
-    text-decoration:underline;
-    text-underline-offset: 5px;
+.menu-nav a:hover{
+    background-color: #2c2c60;
 }
 
 .spread {
@@ -81,8 +79,14 @@ header {
 }
 
 .menu-nav a {
-    color: #fff;
     text-decoration: none;
+    color: #fff;
+    margin: 30px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    transition: background .5s;
 }
 
 .title {
